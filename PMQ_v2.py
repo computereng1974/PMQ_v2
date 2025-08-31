@@ -12,7 +12,7 @@ import platform
 class TSChannelPlayer:
     def __init__(self, root):
         self.root = root
-        self.root.title("مراقبة جودة البث - شبكة المجد")
+        self.root.title("مراقبة جودة البث  ")
         self.root.geometry("1200x900")
         self.root.configure(bg="#1a1a1a")
         
@@ -83,7 +83,7 @@ class TSChannelPlayer:
         scrollbar.pack(side="right", fill="y")
         
         # Title
-        tk.Label(scrollable_frame, text="مراقبة جودة البث - شبكة المجد", 
+        tk.Label(scrollable_frame, text="مراقبة جودة البث ", 
                 font=("Arial", 16, "bold"), bg="#1a1a1a", fg="#ffffff").pack(pady=(10, 15))
         
         # File selection
